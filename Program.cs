@@ -2,34 +2,57 @@
 
 // Тип_метода ИмяМетода (пар1, пар2, ... парN)
 // a, b, - 2 числа, sign - знак арифметической операции
-int Calculate(int a, int b, string sign)
+// int Calculate(int a, int b, string sign)
+// {
+//     if(sign == "+")
+//     {
+//         return a + b; // сумма
+//     }
+//     else if(sign == "-")
+//     {
+//         return a - b;
+//     }
+//     else if(sign == "*")
+//     {
+//         return a * b;
+//     }
+//     else if(sign == "/")
+//     {
+//         return a / b;
+//     }
+//     else
+//     {
+//         Console.WriteLine("Введен неизвестный знак арифм. операции");
+//         return 0;
+//     }
+// }
+
+// // Вызов метода
+// Console.WriteLine(Calculate(6, 58, "+"));
+// Console.WriteLine(Calculate(13, 5, "-"));
+// Console.WriteLine(Calculate(14, 62, "*"));
+// Console.WriteLine(Calculate(1535, 45, "/"));
+// Console.WriteLine(Calculate(2, 3, "."));
+
+
+
+
+// Задание 1. Совместная работа
+// Задайте одномерный массив, заполненный случайными
+// числами. Определите количество простых чисел в этом
+// массиве.
+
+int[] CreateArray(int size)
 {
-    if(sign == "+")
+    int[] array = new int[size];
+    for (int i = 0; i < array.Length; i++)
     {
-        return a + b; // сумма
+        array[i] = new Random().Next(1, 101);
     }
-    else if(sign == "-")
-    {
-        return a - b;
-    }
-    else if(sign == "*")
-    {
-        return a * b;
-    }
-    else if(sign == "/")
-    {
-        return a / b;
-    }
-    else
-    {
-        Console.WriteLine("Введен неизвестный знак арифм. операции");
-        return 0;
-    }
+    return array;
 }
 
-// Вызов метода
-Console.WriteLine(Calculate(2, 3, "+"));
-Console.WriteLine(Calculate(2, 3, "-"));
-Console.WriteLine(Calculate(2, 3, "*"));
-Console.WriteLine(Calculate(2, 3, "/"));
-Console.WriteLine(Calculate(2, 3, "."));
+Console.Write("Введите число: ");
+int N = Convert.ToInt32 (Console.ReadLine());
+int[] res = CreateArray(N);
+Console.WriteLine($"Массив: [{string.Join(";", res)}]");

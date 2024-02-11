@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Practic_4_programmer_sim/1.0.0": {
+        "runtime": {
+          "Practic_4_programmer_sim.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practic_4_programmer_sim/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

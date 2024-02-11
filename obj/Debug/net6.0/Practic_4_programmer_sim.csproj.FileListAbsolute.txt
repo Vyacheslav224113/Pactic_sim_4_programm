@@ -1,0 +1,15 @@
+C:\siminars\Practic_4_programmer_sim\bin\Debug\net6.0\Practic_4_programmer_sim.exe
+C:\siminars\Practic_4_programmer_sim\bin\Debug\net6.0\Practic_4_programmer_sim.deps.json
+C:\siminars\Practic_4_programmer_sim\bin\Debug\net6.0\Practic_4_programmer_sim.runtimeconfig.json
+C:\siminars\Practic_4_programmer_sim\bin\Debug\net6.0\Practic_4_programmer_sim.dll
+C:\siminars\Practic_4_programmer_sim\bin\Debug\net6.0\Practic_4_programmer_sim.pdb
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\Practic_4_programmer_sim.csproj.AssemblyReference.cache
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\Practic_4_programmer_sim.GeneratedMSBuildEditorConfig.editorconfig
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\Practic_4_programmer_sim.AssemblyInfoInputs.cache
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\Practic_4_programmer_sim.AssemblyInfo.cs
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\Practic_4_programmer_sim.csproj.CoreCompileInputs.cache
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\Practic_4_programmer_sim.dll
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\refint\Practic_4_programmer_sim.dll
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\Practic_4_programmer_sim.pdb
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\Practic_4_programmer_sim.genruntimeconfig.cache
+C:\siminars\Practic_4_programmer_sim\obj\Debug\net6.0\ref\Practic_4_programmer_sim.dll
