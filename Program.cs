@@ -42,6 +42,28 @@
 // числами. Определите количество простых чисел в этом
 // массиве.
 
+// int[] CreateArray(int size)
+// {
+//     int[] array = new int[size];
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         array[i] = new Random().Next(1, 101);
+//     }
+//     return array;
+// }
+
+// Console.Write("Введите число: ");
+// int N = Convert.ToInt32 (Console.ReadLine());
+// int[] res = CreateArray(N);
+// Console.WriteLine($"Массив: [{string.Join(";", res)}]");
+
+
+// Задание 2. Работа в сессионных залах
+// Задайте массив из N случайных целых чисел (N вводится с
+// клавиатуры).
+// Найдите количество чисел, которые оканчиваются на 1 и
+// делятся нацело на 7.
+
 int[] CreateArray(int size)
 {
     int[] array = new int[size];
@@ -51,8 +73,21 @@ int[] CreateArray(int size)
     }
     return array;
 }
+int GetCount(int[] arr)
+{
+    int count = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if(arr[i] % 7 == 0 && arr[i] % 10 == 1)
+        {
+            count++;
+        }
+    }
+    return count;
+}
 
 Console.Write("Введите число: ");
 int N = Convert.ToInt32 (Console.ReadLine());
 int[] res = CreateArray(N);
 Console.WriteLine($"Массив: [{string.Join(";", res)}]");
+Console.WriteLine($"Результат: {GetCount(res)}");
